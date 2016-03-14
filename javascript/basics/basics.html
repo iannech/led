@@ -1,0 +1,43 @@
+<!doctype html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Javascript variables</title>
+  </head>
+  <body>
+    <p>
+      Addition of two variables x = 5 and y = 6
+    </p>
+    <p id="demo"></p>
+    <script type="text/javascript">
+      var x = 5;
+      var y = 6;
+      var z = x + y;
+      document.getElementById('demo').innerHTML = z;
+    </script>
+
+    <h2>Strings</h2>
+    <p id="demo1"></p>
+    <script type="text/javascript">
+      document.getElementById('demo1').innerHTML = "John Doe";
+    </script>
+
+    <h2>Expressions</h2>
+    <p>Is a combination of values, variables and operators which compute to a value </p>
+    <p id="exp"></p>
+    <script type="text/javascript">
+      document.getElementById('exp').innerHTML = "John" + " " + "Doe";
+    </script>
+
+    <h2>Identifiers</h2>
+    <p>Identifiers are names of variables, keywords, functions and labels</p>
+    <p id="idn"></p>
+    <script type="text/javascript">
+      var firstname = "John";
+      var lastname = "Doe";
+
+      document.getElementById('idn').innerHTML = lastname;
+    </script>
+  </body>
+</html>
