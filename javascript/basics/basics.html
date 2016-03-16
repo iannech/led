@@ -7,14 +7,22 @@
   </head>
   <body>
     <p>
-      Addition of two variables x = 5 and y = 6
+      Arithmetic operations using variables x = 5 and y = 6
     </p>
     <p id="demo"></p>
     <script type="text/javascript">
       var x = 5;
       var y = 6;
       var z = x + y;
-      document.getElementById('demo').innerHTML = z;
+      var w = x / y;
+      var m = x * y;
+      var mod = y % x;
+      var s = y - x;
+      document.getElementById('demo').innerHTML = z
+      document.getElementById('demo').innerHTML = w;
+      document.getElementById('demo').innerHTML = s;
+      document.getElementById('demo').innerHTML = mod;
+      document.getElementById('demo').innerHTML = m;
     </script>
 
     <h2>Strings</h2>
@@ -31,7 +39,7 @@
     </script>
 
     <h2>Identifiers</h2>
-    <p>Identifiers are names of variables, keywords, functions and labels</p>
+    <p>Identifiers are unique names identifying variables, keywords, functions and labels</p>
     <p id="idn"></p>
     <script type="text/javascript">
       var firstname = "John";
